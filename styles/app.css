@@ -1,0 +1,302 @@
+/*!========================================================================== *
+ * Vikasparashar.in Styles
+ * Author: Vikas Parashar
+ * Email: hi@vikasparashar.in
+ * ========================================================================== */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #fafafa;
+  color: #333; 
+  font-family: 'Quicksand', sans-serif;
+}
+body h1 {
+  background-color: #ffeb3b;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 1rem;
+}
+@media screen and (max-width: 960px) {
+  body h1 {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  body h1 {
+    font-size: 3rem;
+    line-height: auto;
+  }
+}
+body h2 {
+  font-family: 'Inconsolata';
+  font-size: 3.4rem;
+  font-weight: 300;
+  line-height: 1.2; 
+  margin: 1.414em 0 .5em;
+}
+@media screen and (max-width: 960px) {
+  body h2 {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  body h2 {
+    font-size: 2rem;
+    line-height: auto;
+  }
+}
+body p {
+  font-family: 'Inconsolata';
+  font-size: 2.2rem;
+  line-height: 1.8;
+}
+@media screen and (max-width: 960px) {
+  body p {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  body p {
+    font-size: 1.4rem;
+  }
+}
+body span {
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+}
+body a {
+  color: #2f353a;
+  text-decoration: underline;
+}
+body a:hover {
+  color: #383838;
+  font-weight: 700;
+}
+body nav {
+  background-color: #ffeb3b;
+}
+body nav .logo {
+  margin: 30px 30px; 
+  width: 60px;
+}
+@media screen and (max-width: 900px) {
+  body nav .logo {
+    left: 0; 
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    width: 40px;
+  }
+}
+body nav .social {
+  bottom: 1em;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+@media screen and (max-width: 900px) {
+  body nav .social {
+    left: 80%; 
+    right: 1em;
+    top: 1.5em;
+  }
+  body nav .social a {
+    display: inline-table;
+    margin: auto 5px;
+  }
+}
+@media screen and (max-width: 520px) {
+  body nav .social {
+    display: none;
+  }
+}
+body nav a {
+  color: #383838;
+  display: block;
+  font-size: 18px;
+  font-weight: 600; 
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+body nav a:hover {
+  color: #000;
+}
+@media screen and (max-width: 900px) {
+  body nav a {
+    display: inline-table;
+    line-height: 50px;
+    margin-left: 5%;
+    margin-top: 8px;
+  }
+}
+@media screen and (max-width: 520px) {
+  body nav a {
+    font-size: 16px; 
+    margin-left: 5%;
+  }
+  body nav a:first-child {
+    margin-left: 10%;
+  }
+}
+body nav a svg #twitter,
+body nav a svg #github {
+  -webkit-transition: 200ms;
+       -o-transition: 200ms;
+          transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+       -o-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+body nav a svg #twitter:hover,
+body nav a svg #github:hover {
+  fill: #383838;
+}
+body .side-bar {
+  border-right: 1px solid #2f353a; 
+  display: block;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 120px;
+}
+@media screen and (max-width: 900px) {
+  body .side-bar {
+    display: none;
+  }
+}
+body .top-bar {
+  border-bottom: 1px solid #2f353a; 
+  display: none;
+  height: 60px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+@media screen and (max-width: 900px) {
+  body .top-bar {
+    display: block;
+  }
+}
+body section,
+body footer {
+  display: block;
+  margin-left: 120px; 
+  width: 90%;
+}
+@media screen and (max-width: 900px) {
+  body section,
+  body footer {
+    margin: 10px; 
+    width: 100%;
+  }
+}
+body section .content,
+body footer .content {
+  margin: 100px auto;
+  min-height: 80vh; 
+  width: 768px;
+}
+@media screen and (max-width: 900px) {
+  body section .content,
+  body footer .content {
+    width: 100%;
+  }
+}
+body section .content .social,
+body footer .content .social {
+  display: none;
+}
+@media screen and (max-width: 520px) {
+  body section .content .social,
+  body footer .content .social {
+    display: block;
+  }
+}
+body section .content .first-h1,
+body footer .content .first-h1 {
+  width: 29rem;
+}
+body section .content .second-h1,
+body footer .content .second-h1 {
+  width: 19rem;
+}
+body section .content .third-h1,
+body footer .content .third-h1 {
+  width: 20rem;
+}
+@media screen and (max-width: 960px) {
+  body section .content .first-h1,
+  body footer .content .first-h1 {
+    width: 23rem;
+  }
+  body section .content .second-h1,
+  body footer .content .second-h1 {
+    width: 15.5rem;
+  }
+  body section .content .third-h1,
+  body footer .content .third-h1 {
+    width: 16.5rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  body section .content .first-h1,
+  body footer .content .first-h1 {
+    width: 19rem;
+  }
+  body section .content .second-h1,
+  body footer .content .second-h1 {
+    width: 12rem;
+  }
+  body section .content .third-h1,
+  body footer .content .third-h1 {
+    width: 13rem;
+  }
+}
+body section .content .content--project a,
+body footer .content .content--project a {
+  text-decoration: none;
+}
+body section .content .content--project a:hover,
+body footer .content .content--project a:hover {
+  color: #2f353a;
+}
+body section .content .content--project .github-btn,
+body footer .content .content--project .github-btn {
+  border: 2px solid #2f353a;
+  border-radius: 5px; 
+  display: block;
+  width: 180px;
+}
+body section .content .content--project .github-btn:hover,
+body footer .content .content--project .github-btn:hover {
+  box-shadow: 1px 1px 5px 1px #ccc;
+}
+body section .content .content--project .github-btn div,
+body footer .content .content--project .github-btn div {
+  font-family: 'Inconsolata';
+  font-size: 16px;
+  line-height: 1; 
+  margin: 10px 15px;
+}
+body section .content .content--project .github-btn div img,
+body footer .content .content--project .github-btn div img {
+  margin-top: -3px;
+}
+body footer {
+  text-align: center;
+}
+
+.browsehappy {
+  background: #ccc;
+  color: #000;
+  margin: .2em 0;
+  padding: .2em 0;
+}
