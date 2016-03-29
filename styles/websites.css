@@ -1,0 +1,52 @@
+@media only screen and (max-device-width: 800px) {
+body .top-bar {
+    z-index:3;
+}
+}
+.website{
+	display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin-top: -2.0rem;
+}
+.website-ss{
+	width: 100%;
+	display: block;
+}
+.website-link{
+	background: rgba(255, 255, 255, 0.5);
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
+}
+.website-link:hover{
+	opacity: 1;
+	transition: 0.6s;
+	-webkit-transition: 0.6s;
+}
+.website-link div{
+
+}
+.website-btn{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	margin-left: -58px;
+	// margin-top: -50%;
+	background-color: #ff0;
+	font-size: 2.2rem;
+	padding: 10px;
+	color: #383838;
+	display: block;
+	font-weight: 600;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+
+
+
+}
