@@ -5,7 +5,7 @@ I spend my days with my hands in many different areas of web development from ba
 
 I'm an undergraduate at the National Institute of Technology Surat, India studying Applied Physics. Here's my [resume](http://vikasparashar.in/vikas-parashar-resume.pdf).
 
-### license
+### License
 The MIT License (MIT)
 
 Copyright (c) 2016 Vikas Parashar
