@@ -8,4 +8,4 @@ I'm an undergraduate at the National Institute of Technology Surat, India studyi
 ### License
 The MIT License (MIT)
 
-Copyright (c) 2016 Vikas Parashar
+Feel free to use and give credits if you want or whatever :)
