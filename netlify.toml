@@ -1,0 +1,3 @@
+[build]
+  publish = "thoughts/_site"
+  command = "DEBUG=* eleventy"
